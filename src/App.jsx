@@ -52,7 +52,7 @@ function App() {
               </ProtectedRouteForAdmin>
             }
           />
-          <Route path="/*" element={<NoPage />} />
+          <Route path="/nopage" element={<NoPage />} />
         </Routes>
         <Toaster />
       </Router>
